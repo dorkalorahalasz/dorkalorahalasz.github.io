@@ -9,15 +9,24 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
-a.nav-link active {
-  color:#14454d
+nav-tabs{
+  /*line color*/
+  --bs-border-color:#05636c;
+  /*hover border color*/
+  --bs-secondary-bg:#05636c;
+  /*active link text color*/
+  --bs-emphasis-color:#14454d;
+  /*active link bg color*/
+  --bs-body-bg:#f2eaea;
 }
-a.nav-link{
-  color:#1fd3f0
-  
+nav-link{
+  /*menu item color*/
+  --bs-nav-link-color:#1fd3f0;
 }
-a.nav-link disabled{
+
+a.nav-link.disabled{
   color:#d5e8eb
 }
