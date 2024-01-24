@@ -12,6 +12,14 @@ html {
 
 }
 
+nav{
+  /*menu item color*/
+  --bs-link-color:#1fd3f0;
+  --bs-nav-link-color:#1fd3f0;
+  --bs-nav-link-hover-color:#1fd3f0;
+
+}
+
 nav-tabs{
   /*line color*/
   --bs-border-color:#05636c;
@@ -22,10 +30,7 @@ nav-tabs{
   /*active link bg color*/
   --bs-body-bg:#f2eaea;
 }
-nav-link{
-  /*menu item color*/
-  --bs-nav-link-color:#1fd3f0;
-}
+
 
 a.nav-link.disabled{
   color:#d5e8eb
