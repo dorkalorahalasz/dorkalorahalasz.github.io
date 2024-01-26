@@ -15,6 +15,7 @@
   </head>
   <body>
 
+    <script src="btn_actions.js"></script>
   <!--navigation-->  
 	<ul class="nav nav-tabs">
   <li class="nav-item">
@@ -51,9 +52,9 @@
 </div>
 
 <div class="btn-group" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-primary active">Nothing</button>
-    <button type="button" class="btn btn-primary">Flexbox</button>
-    <button type="button" class="btn btn-primary">CSS Grid</button>
+    <button type="button" class="btn btn-primary active" onclick="activateButton(this,'btn-primary')">Nothing</button>
+    <button type="button" class="btn btn-primary" onclick="activateButton(this,'btn-primary')">Flexbox</button>
+    <button type="button" class="btn btn-primary" onclick="activateButton(this,'btn-primary')">CSS Grid</button>
 </div>
 
 <!--images to demostrate grid and flexbox system-->
@@ -66,7 +67,6 @@
     <img src="mountain/m5.jpg" alt="" class="flex-item">
 
 </div>
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
