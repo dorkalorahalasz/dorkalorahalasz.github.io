@@ -1,0 +1,56 @@
+body,
+html {
+  background: url(underpage1_background.jpg) no-repeat center center fixed; 
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 100px;
+}
+
+button{
+    display: flex;
+}
+
+
+
+button.btn-primary{
+    --bs-btn-bg:#05636c;
+    --bs-btn-border-color:#05636c;
+    --bs-btn-hover-bg:#1fd3f0;
+    --bs-btn-hover-border-color:#1fd3f0;
+    --bs-btn-active-bg:#f01f6a;
+    --bs-btn-active-border-color:#f01f6a;
+}
+
+.grid-container{
+    display: grid;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+img.flex-item{
+    flex: 1;
+}
+
+.basic-container{
+    justify-self: start;
+}
+
+img.basic-item{
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+}
+

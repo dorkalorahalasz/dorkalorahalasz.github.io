@@ -9,18 +9,28 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  --bs-body-color:#f01f6a;
 
 }
 
-nav{
+.centered-content{
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+.nav{
   /*menu item color*/
   --bs-link-color:#1fd3f0;
   --bs-nav-link-color:#1fd3f0;
   --bs-nav-link-hover-color:#1fd3f0;
+  justify-self: start;
 
 }
 
-nav-tabs{
+.nav-tabs{
   /*line color*/
   --bs-border-color:#05636c;
   /*hover border color*/
@@ -31,7 +41,18 @@ nav-tabs{
   --bs-body-bg:#f2eaea;
 }
 
+.dropdown-item{
+  /*dropdown text color*/
+  --bs-dropdown-link-color:#05636c;
+  /*separator color in dropdown*/
+  --bs-border-color-translucent:#05636c;
+}
+
 
 a.nav-link.disabled{
   color:#d5e8eb
+}
+
+strong[role="status"]{
+  font-size: 24px;
 }
