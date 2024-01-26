@@ -1,0 +1,26 @@
+body,
+html {
+  background: url(db_background.jpg) no-repeat center center fixed; 
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info_container{
+
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.accordion{
+    --bs-accordion-bg:none;
+    --bs-accordion-btn-bg:#14454d;
+    --bs-primary-bg-subtle:#14454d;
+    --bs-accordion-active-bg:#14454d;
+    --bs-body-color:white;
+    --bs-accordion-active-color:white;
+    --bs-accordion-border-color:none;
+}
